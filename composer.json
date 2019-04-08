@@ -14,11 +14,6 @@
         "illuminate/database": "^5.6",
         "kalnoy/nestedset": "^4.1"
     },
-    "require-dev": {
-        "graham-campbell/testbench": "^5.0",
-        "mockery/mockery": "^1.0",
-        "phpunit/phpunit": "^6.5"
-    },
     "autoload": {
         "psr-4": {
             "LoLong\\Activitylog\\": "src/"
