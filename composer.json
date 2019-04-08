@@ -24,25 +24,16 @@
             "LoLong\\Activitylog\\": "src/"
         }
     },
-    "autoload-dev": {
-        "psr-4": {
-            "LoLong\\Tests\\Activitylog\\": "tests"
-        }
-    },
     "config": {
         "preferred-install": "dist",
         "sort-packages": true
     },
     "extra": {
-        "branch-alias": {
-            "dev-master": "1.0-dev"
-        },
         "laravel": {
             "providers": [
                 "LoLong\\Activitylog\\ActivitylogServiceProvider"
             ]
         }
     },
-    "minimum-stability": "dev",
     "prefer-stable": true
 }
